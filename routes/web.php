@@ -133,7 +133,8 @@ Route::get('/about-us', function(){
 //Route Resouce-only
 Route::resource('/contact-us', cobaController::class)->only([
     'index',
-    'create'
+    'create',
+    'store'
 ]);
 
 

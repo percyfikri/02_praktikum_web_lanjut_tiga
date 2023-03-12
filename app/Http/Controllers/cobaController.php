@@ -16,9 +16,4 @@ class cobaController extends Controller
     {
         return view('contact-us-from-controller');
     }
-    
-    public function store(Request $request)
-    {
-        return "<pre><h3>Judul : $request->title</h3><h3>Deskripsi : $request->description</h3></pre>";
-    }
 }
